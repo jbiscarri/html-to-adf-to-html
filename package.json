@@ -1,0 +1,37 @@
+{
+  "name": "html-to-adf-to-html",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@atlaskit/adf-schema": "25.3.1",
+    "@atlaskit/editor-bitbucket-transformer": "8.0.0",
+    "@atlaskit/editor-confluence-transformer": "8.1.33",
+    "@atlaskit/editor-jira-transformer": "8.2.4",
+    "@atlaskit/editor-json-transformer": "8.8.3",
+    "diff": "5.1.0",
+    "jsdom": "21.1.1",
+    "loader-utils": "3.2.1",
+    "prosemirror-model": "1.19.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
